@@ -15352,7 +15352,7 @@
 			(color 255 255 255 0.0000)
 		)
 		(uuid "ef20787e-43c3-4ad5-adcc-ccbc973acf64")
-		(property "Sheetname" "CM4_GPIO ( Ethernet, GPIO, SDCARD)"
+		(property "Sheetname" "Main"
 			(at 213.36 127 0)
 			(effects
 				(font
