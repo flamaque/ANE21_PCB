@@ -1,11 +1,18 @@
-26715388651576509
-1-2199119-5
-TE_1-2199119-5
+26729556593206399
+1255AY-3R3N_P3
+IND_1255AY-3R3N=P3
 
 
 0
-69
-69
+2
+2
+AP62300WU-7
+SOT95P280X100-6N
+
+
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2817,6 +2824,20 @@ Buzzer_Beeper
 Speaker_CUI_CMR-1206S-67
 Speaker, 30mW, 300-7000Hz, IP67 face, 12x6x2,25mm, https://www.cuidevices.com/product/resource/cmr-12062s-67.pdf
 speaker CUI
+0
+2
+2
+CL10B104KO8NNNC
+CAPC1608X90N
+
+
+0
+2
+2
+CL31B226KPHNNNE
+CAPC3216X180N
+
+
 0
 2
 2
@@ -59359,6 +59380,13 @@ ceramic
 0
 3
 3
+DF40C-100DS-0.4V_51_
+HIROSE_DF40C-100DS-0.4V_51_
+
+
+0
+100
+100
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -62460,6 +62488,20 @@ GDT 3R-6
 0
 3
 3
+GRM21BR71A106KA73L
+CAPC2012X140N
+
+
+0
+2
+2
+HMDI
+AMPHENOL_10029449-111RLF
+
+
+0
+23
+23
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -70587,6 +70629,13 @@ Yellow 5381 Series LED
 0
 2
 2
+M2Key
+TE_1-2199119-5
+
+
+0
+69
+69
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -73436,6 +73485,13 @@ threaded screw
 0
 4
 1
+NCP380HSN05AAT1G
+SOT95P275X120-5N
+
+
+0
+5
+5
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
