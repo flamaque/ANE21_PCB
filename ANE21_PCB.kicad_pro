@@ -569,7 +569,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "connection_grid_size": 50.0,
+    "connection_grid_size": 25.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
@@ -616,7 +616,7 @@
     ],
     [
       "ef20787e-43c3-4ad5-adcc-ccbc973acf64",
-      "Main"
+      "CM4_LowSpeed"
     ],
     [
       "7ce7b409-ea93-4ea9-915b-438b4d220a73",
@@ -637,6 +637,10 @@
     [
       "4697cfbe-ee0a-43c8-90a8-c4638738539a",
       "USB2-HUB"
+    ],
+    [
+      "c00694cc-eb82-458b-b070-b881c4a4aed5",
+      "Ethernet"
     ]
   ],
   "text_variables": {}
