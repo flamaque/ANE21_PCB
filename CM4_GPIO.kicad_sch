@@ -10815,16 +10815,6 @@
 		)
 		(uuid "ff823424-4b67-4ba0-9272-3a0d0f413521")
 	)
-	(label "+3.3v"
-		(at 153.67 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "11a93163-aa9f-4d68-a525-afa7312a4dfb")
-	)
 	(label "GPIO4"
 		(at 144.78 31.75 180)
 		(effects
@@ -10965,16 +10955,6 @@
 		)
 		(uuid "50fb9eb3-b1d3-4fc0-82e7-7d4150610afb")
 	)
-	(label "+3.3v"
-		(at 165.1 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "546a4d14-0a14-4d2c-965c-2aa31fca7bde")
-	)
 	(label "GPIO20"
 		(at 172.72 69.85 180)
 		(effects
@@ -11064,16 +11044,6 @@
 			(justify right bottom)
 		)
 		(uuid "6b961204-170b-4b41-8ebf-735eb5dc2b36")
-	)
-	(label "+3.3v"
-		(at 106.68 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d9e78db-ce24-4ce7-bded-44b1bb62cf7a")
 	)
 	(label "E4"
 		(at 229.87 29.21 0)
@@ -11435,6 +11405,160 @@
 		)
 		(uuid "f876a6c5-4cc0-4484-bfe2-e9490419cfa5")
 	)
+	(global_label "+5V DC"
+		(shape input)
+		(at 93.98 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34559d9d-cd7d-45ee-8c46-ff36dfb63e05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.3433 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3,3V DC"
+		(shape input)
+		(at 161.29 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49cfc939-27fc-40f7-bf36-18530efdbc6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.1124 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3,3V DC"
+		(shape input)
+		(at 148.59 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f575da3-f018-4de9-9fef-9754f3290975")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.4124 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V DC"
+		(shape input)
+		(at 168.91 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db9d881d-3683-4a30-bd5d-a936c03231cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.2733 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3,3V DC"
+		(shape input)
+		(at 24.13 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4f3f5ba-bf07-41cf-956c-b379d1d71dcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.9524 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3,3V DC"
+		(shape input)
+		(at 140.97 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea55afa9-67bd-4d2d-9c9e-7c93a88a7e80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7924 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3,3V DC"
+		(shape input)
+		(at 101.6 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb837a6d-b511-480f-b8c3-985291455e5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.7776 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "ID_SC"
 		(shape output)
 		(at 96.52 69.85 0)
@@ -11467,28 +11591,6 @@
 			(justify right)
 		)
 		(uuid "35816024-eb9e-4ea9-8b62-642759d010ab")
-	)
-	(hierarchical_label "+3.3v"
-		(shape output)
-		(at 24.13 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "42c013ee-c2d9-4f61-8f2f-c39839acb0ca")
-	)
-	(hierarchical_label "+5v"
-		(shape input)
-		(at 93.98 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52eb5e01-c301-4142-a4da-54b0f9d7eaf2")
 	)
 	(hierarchical_label "SDA0"
 		(shape output)

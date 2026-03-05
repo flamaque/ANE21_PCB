@@ -8379,7 +8379,7 @@
 		(uuid "b2755cfb-6437-48a8-a924-1946b225fc4c")
 	)
 	(junction
-		(at 273.05 90.17)
+		(at 262.89 88.9)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "b8b9ca26-6be7-4010-93a4-58524581fa84")
@@ -8409,7 +8409,7 @@
 		(uuid "beb52f61-ffe7-405d-ad55-a5889a7a2bdb")
 	)
 	(junction
-		(at 240.03 90.17)
+		(at 229.87 88.9)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "bf133d23-6d45-4b88-b65c-214396292b62")
@@ -9274,7 +9274,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 90.17) (xy 240.03 90.17)
+			(xy 224.79 88.9) (xy 229.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -9404,7 +9404,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 90.17) (xy 251.46 90.17)
+			(xy 229.87 88.9) (xy 241.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10364,7 +10364,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 90.17) (xy 273.05 90.17)
+			(xy 256.54 88.9) (xy 262.89 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10804,7 +10804,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 96.52) (xy 251.46 97.79)
+			(xy 241.3 95.25) (xy 241.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10874,7 +10874,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 90.17) (xy 274.32 90.17)
+			(xy 262.89 88.9) (xy 264.16 88.9)
 		)
 		(stroke
 			(width 0)
@@ -12052,8 +12052,30 @@
 		)
 		(uuid "fe7cc36b-7d57-4718-9265-0c7ec8a03056")
 	)
-	(global_label "HDMI_5v"
+	(global_label "+5V DC"
 		(shape input)
+		(at 224.79 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22c33ab9-0185-43d2-bbf4-c53ec1d19ca5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.4267 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI_5v"
+		(shape output)
 		(at 269.24 15.24 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12062,7 +12084,7 @@
 			)
 			(justify left)
 		)
-		(uuid "53bc13f7-b00f-43a0-84f2-7f24f3bfb162")
+		(uuid "392937ac-0a7b-4f80-a712-bc856f9c413f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.0266 15.24 0)
 			(effects
@@ -12162,6 +12184,50 @@
 			)
 		)
 	)
+	(global_label "+5V DC"
+		(shape input)
+		(at 228.6 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67708952-e60c-437a-9862-48c3900b7cec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.9633 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3,3V DC"
+		(shape input)
+		(at 172.72 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e168b6e-60f1-40ce-aa30-18cab910ad65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.8976 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USBD+"
 		(shape input)
 		(at 175.26 144.78 180)
@@ -12230,7 +12296,7 @@
 	)
 	(global_label "HDMI_5v"
 		(shape output)
-		(at 274.32 90.17 0)
+		(at 264.16 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12238,9 +12304,9 @@
 			)
 			(justify left)
 		)
-		(uuid "855d72e3-d594-4761-a988-7eda9a643497")
+		(uuid "9d7da091-42a7-4d22-9c2a-68339528a0d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.1066 90.17 0)
+			(at 274.9466 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12338,6 +12404,28 @@
 			)
 		)
 	)
+	(global_label "+5V DC"
+		(shape input)
+		(at 256.54 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d439cc23-8284-4d3d-ac3b-bde189e0eeda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.1767 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "pUSBD+"
 		(shape output)
 		(at 200.66 144.78 0)
@@ -12360,17 +12448,6 @@
 			)
 		)
 	)
-	(hierarchical_label "+5v"
-		(shape input)
-		(at 256.54 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "03dc732c-e82c-42d9-9395-2da03f121bfc")
-	)
 	(hierarchical_label "ID_SD"
 		(shape input)
 		(at 20.32 190.5 180)
@@ -12381,28 +12458,6 @@
 			(justify right)
 		)
 		(uuid "0de40cc5-7dbc-4df7-8ed4-60de86222640")
-	)
-	(hierarchical_label "+5v"
-		(shape input)
-		(at 228.6 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "166443bb-fdf9-4783-a402-d2a8e815c951")
-	)
-	(hierarchical_label "+5v"
-		(shape input)
-		(at 234.95 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1799d5ff-3b39-4169-9f47-19a5bc58204c")
 	)
 	(hierarchical_label "GPIO_VREF"
 		(shape input)
@@ -12677,7 +12732,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 273.05 93.98 0)
+		(at 262.89 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12685,7 +12740,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005da83896")
 		(property "Reference" "C57"
-			(at 275.971 92.8116 0)
+			(at 265.811 91.5416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12694,7 +12749,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 275.971 95.123 0)
+			(at 265.811 93.853 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,7 +12758,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 274.0152 97.79 0)
+			(at 263.8552 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12712,7 +12767,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
-			(at 273.05 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,7 +12776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +12784,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 273.05 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,7 +12793,7 @@
 			)
 		)
 		(property "Field5" "2611911"
-			(at 273.05 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12802,7 @@
 			)
 		)
 		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 273.05 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +12811,7 @@
 			)
 		)
 		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 273.05 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12820,7 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 273.05 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12774,7 +12829,7 @@
 			)
 		)
 		(property "Field8" "110091611"
-			(at 273.05 93.98 0)
+			(at 262.89 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12799,7 +12854,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 240.03 93.98 0)
+		(at 229.87 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12807,7 +12862,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005daa0732")
 		(property "Reference" "C56"
-			(at 242.951 92.8116 0)
+			(at 232.791 91.5416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12816,7 +12871,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 242.951 95.123 0)
+			(at 232.791 93.853 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12825,7 +12880,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.9952 97.79 0)
+			(at 230.8352 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12834,7 +12889,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
-			(at 240.03 93.98 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12843,7 +12898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 93.98 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,7 +12906,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 240.03 93.98 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12860,7 +12915,7 @@
 			)
 		)
 		(property "Field5" "2611911"
-			(at 240.03 93.98 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12869,7 +12924,7 @@
 			)
 		)
 		(property "Field6" "RM EMK105 B7104KV-F"
-			(at 240.03 93.98 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,7 +12933,7 @@
 			)
 		)
 		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
-			(at 240.03 93.98 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12887,7 +12942,7 @@
 			)
 		)
 		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 240.03 93.98 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12896,7 +12951,7 @@
 			)
 		)
 		(property "Field8" "110091611"
-			(at 240.03 93.98 0)
+			(at 229.87 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12921,7 +12976,7 @@
 	)
 	(symbol
 		(lib_id "CM4IO:RT9742SNGV")
-		(at 256.54 93.98 0)
+		(at 246.38 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12929,7 +12984,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005dad5ba8")
 		(property "Reference" "U13"
-			(at 259.08 83.439 0)
+			(at 248.92 82.169 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12937,7 +12992,7 @@
 			)
 		)
 		(property "Value" "RT9742SNGV"
-			(at 259.08 85.7504 0)
+			(at 248.92 84.4804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12945,7 +13000,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12954,7 +13009,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9742/DS9742-09.pdf"
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12963,7 +13018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12971,7 +13026,7 @@
 			)
 		)
 		(property "Field4" "Farnell"
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12980,7 +13035,7 @@
 			)
 		)
 		(property "Field5" "2575555"
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12989,7 +13044,7 @@
 			)
 		)
 		(property "Field6" "RT9742SNGV"
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12998,7 +13053,7 @@
 			)
 		)
 		(property "Field7" "RichTek"
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13007,7 +13062,7 @@
 			)
 		)
 		(property "Part Description" "Power Switch/Driver 1:1 N-Channel 500mA SOT-23-3"
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13016,7 +13071,7 @@
 			)
 		)
 		(property "Field8" "USWI00155"
-			(at 256.54 93.98 0)
+			(at 246.38 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13305,7 +13360,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 97.79 0)
+		(at 262.89 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13313,7 +13368,7 @@
 		(dnp no)
 		(uuid "28983282-9709-466b-ab85-48a57b2166b6")
 		(property "Reference" "#PWR05"
-			(at 273.05 104.14 0)
+			(at 262.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13322,7 +13377,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.177 102.1842 0)
+			(at 263.017 100.9142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13330,7 +13385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 97.79 0)
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13339,7 +13394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 97.79 0)
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13348,7 +13403,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 97.79 0)
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13369,7 +13424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 97.79 0)
+		(at 241.3 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13377,7 +13432,7 @@
 		(dnp no)
 		(uuid "6e0e99d3-3dc4-45f0-8af9-eabaaba2e9dc")
 		(property "Reference" "#PWR04"
-			(at 251.46 104.14 0)
+			(at 241.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +13441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.587 102.1842 0)
+			(at 241.427 100.9142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13394,7 +13449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 97.79 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13403,7 +13458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 97.79 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13412,7 +13467,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 97.79 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15032,7 +15087,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 97.79 0)
+		(at 229.87 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15040,7 +15095,7 @@
 		(dnp no)
 		(uuid "ce8ab0d5-11f5-4b08-bfea-6ff4f9abea25")
 		(property "Reference" "#PWR03"
-			(at 240.03 104.14 0)
+			(at 229.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15049,7 +15104,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.157 102.1842 0)
+			(at 229.997 100.9142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15057,7 +15112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 97.79 0)
+			(at 229.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15066,7 +15121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 97.79 0)
+			(at 229.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15075,7 +15130,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 97.79 0)
+			(at 229.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1805,28 +1805,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Can be used to power the CM4IO board. NB +12v will also be available at the DC Jack"
-		(exclude_from_sim no)
-		(at 10.16 205.994 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "18c095ab-39c3-4caf-8e73-b84d683fcea2")
-	)
-	(text "Can be used to power other devices if total loading on PSUs aren't exceeded"
-		(exclude_from_sim no)
-		(at 10.16 203.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26492140-305c-4d00-ad20-4852dfe42c29")
-	)
 	(text "USB-c connector\n"
 		(exclude_from_sim no)
 		(at 42.926 20.066 0)
@@ -1836,17 +1814,6 @@
 			)
 		)
 		(uuid "57755f75-7799-424d-99fb-a9543318ea50")
-	)
-	(text "+12v is only needed for PCIe and the FAN. If these aren't used then +12v isn't needed"
-		(exclude_from_sim no)
-		(at 10.16 208.534 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6e90e307-d69f-46c8-82cd-564f142d4020")
 	)
 	(junction
 		(at 92.71 19.05)
