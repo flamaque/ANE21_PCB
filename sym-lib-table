@@ -1,7 +1,11 @@
 (sym_lib_table
   (version 7)
   (lib (name "CM4IO")(type "KiCad")(uri "${KIPRJMOD}/CM4IO.kicad_sym")(options "")(descr ""))
-  (lib (name "SI-51005-F")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/Symbols_Finley/SI-51005-F.kicad_sym")(options "")(descr ""))
   (lib (name "1-2199119-5_Finley")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/Symbols_Finley/1-2199119-5_Finley.kicad_sym")(options "")(descr ""))
   (lib (name "EMI8042")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/Symbols_Finley/EMI8042.kicad_sym")(options "")(descr ""))
+  (lib (name "PUSB3FR4")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib/PUSB3FR4.kicad_sym")(options "")(descr ""))
+  (lib (name "SI-51005-F")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib/SI-51005-F.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP380LSN05AAT1G")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib/NCP380LSN05AAT1G.kicad_sym")(options "")(descr ""))
+  (lib (name "112J-TDAR-R01")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib/112J-TDAR-R01.kicad_sym")(options "")(descr ""))
+  (lib (name "10029449-111RLF")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib/10029449-111RLF.kicad_sym")(options "")(descr ""))
 )
