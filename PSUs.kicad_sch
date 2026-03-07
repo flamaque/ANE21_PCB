@@ -3539,7 +3539,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM4IO:BarrelJack_Horizontal"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
 			(at 50.8 28.956 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-26741892205230772
+26756074658501198
 74LVC1G07SE-7
 SOT65P210X110-5N
 
@@ -106455,3 +106455,59 @@ Varistor VF
 0
 2
 2
+lib
+112J-TDAR-R01
+http://katalog.we-online.de/em/datasheet/693072010801.pdf
+Micro SD Wuerth Wurth Würth
+0
+13
+10
+lib
+1255AY-3R3N=P3
+Choke, SMD, 6.3x6.3mm 3mm height
+Choke SMD
+0
+2
+2
+lib
+AMPHENOL_10029449-111RLF
+
+
+0
+23
+23
+lib
+BEL_SI-51005-F
+
+
+0
+16
+16
+lib
+SOT95P275X110-5N
+TSOP-5 CASE 483-02 ISSUE K
+Integrated Circuit
+0
+5
+5
+lib
+SOT1176-1
+
+
+0
+10
+10
+lib
+TE_1-2199119-5
+
+
+0
+69
+69
+lib
+USBASVT
+USB-A-S-VT
+Connector
+0
+6
+6
