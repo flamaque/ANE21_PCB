@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.4,
-          "width": 0.65
+          "drill": 3.25,
+          "height": 3.25,
+          "width": 3.25
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -1008,6 +1008,10 @@
     [
       "1710a55d-c4fa-4b6a-99e2-6054aab87aa6",
       "PSUs"
+    ],
+    [
+      "9d82827b-68eb-4a7e-a988-813b7932b4b1",
+      "Miscellaneous"
     ]
   ],
   "text_variables": {}
