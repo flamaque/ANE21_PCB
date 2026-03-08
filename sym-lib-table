@@ -8,4 +8,5 @@
   (lib (name "NCP380LSN05AAT1G")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib/NCP380LSN05AAT1G.kicad_sym")(options "")(descr ""))
   (lib (name "112J-TDAR-R01")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib/112J-TDAR-R01.kicad_sym")(options "")(descr ""))
   (lib (name "10029449-111RLF")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib/10029449-111RLF.kicad_sym")(options "")(descr ""))
+  (lib (name "2026-03-08_10-34-21")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/2026-03-08_10-34-21.kicad_sym")(options "")(descr ""))
 )

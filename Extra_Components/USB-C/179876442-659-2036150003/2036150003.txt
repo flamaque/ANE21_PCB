@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-09042024-073646";"";
+"REFERENCE";"2036150003";"";
+"TraceParts.PartTitle";"USB";"";
+"TraceParts.InstanceId";"90-09042024-0736462N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"Universal Serial Bus (USB) Shielded I/O Receptacle, Type C, 16 Pin, Right-Angle, Top Mount, Surface Mount, Waterproof";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.3";"";
