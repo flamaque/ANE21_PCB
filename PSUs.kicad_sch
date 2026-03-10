@@ -755,7 +755,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CM4IO:Barrel_Jack"
+		(symbol "Connector:Barrel_Jack"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -784,7 +787,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 1.27 -1.016 0)
 				(effects
 					(font
@@ -793,7 +796,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "DC Barrel Jack"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -837,7 +849,7 @@
 				)
 				(arc
 					(start -3.302 1.905)
-					(mid -3.9342 2.54)
+					(mid -3.9343 2.54)
 					(end -3.302 3.175)
 					(stroke
 						(width 0.254)
@@ -849,7 +861,7 @@
 				)
 				(arc
 					(start -3.302 1.905)
-					(mid -3.9342 2.54)
+					(mid -3.9343 2.54)
 					(end -3.302 3.175)
 					(stroke
 						(width 0.254)
@@ -876,18 +888,6 @@
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -5.08) (xy 2.54 -5.08) (xy 2.54 -3.81) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -925,24 +925,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1913,12 +1895,6 @@
 		(uuid "db159649-7412-4b58-a43f-a784030bf922")
 	)
 	(junction
-		(at 31.75 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc5d14a1-597f-4ce9-8088-11f523f3ef88")
-	)
-	(junction
 		(at 93.98 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2543,16 +2519,6 @@
 			(type default)
 		)
 		(uuid "80ac3206-cbad-4cfe-b442-0511c61f78e7")
-	)
-	(wire
-		(pts
-			(xy 31.75 25.4) (xy 31.75 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ca8e3c-4ec6-4566-8087-5427d0cbd743")
 	)
 	(wire
 		(pts
@@ -3429,120 +3395,6 @@
 		)
 	)
 	(symbol
-		(lib_id "CM4IO:Barrel_Jack")
-		(at 24.13 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d787bd9")
-		(property "Reference" "J2"
-			(at 25.5778 14.605 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack"
-			(at 25.5778 16.9164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
-			(at 25.4 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.toby.co.uk/uploads/publications/842.pdf"
-			(at 25.4 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "Toby"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "DC-001-A-2.1mm-R"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "DC Power Connectors PCB 2.1MM"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "DC-001-A-2.1mm-R"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Valcon"
-			(at 24.13 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc293504-8b38-48c4-933a-87973ac3dddb")
-		)
-		(pin "2"
-			(uuid "46ef7791-0c18-4f00-822c-2403dcd88336")
-		)
-		(pin "3"
-			(uuid "0f7bfd96-768d-43a9-8026-375cd6547c7f")
-		)
-		(instances
-			(project "ANE21_PCB"
-				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/1710a55d-c4fa-4b6a-99e2-6054aab87aa6"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 107.95 116.84 0)
 		(unit 1)
@@ -4144,6 +3996,74 @@
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/1710a55d-c4fa-4b6a-99e2-6054aab87aa6"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Barrel_Jack")
+		(at 24.13 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "509c98aa-b52c-41e6-9f87-6df96121a987")
+		(property "Reference" "J4"
+			(at 24.13 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Barrel_Jack"
+			(at 24.13 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
+			(at 25.4 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 24.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad666e4-9936-4ce1-996d-647d1a495b5e")
+		)
+		(pin "2"
+			(uuid "3910c7e5-322d-446e-8e0e-03cb738d8617")
+		)
+		(instances
+			(project ""
+				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/1710a55d-c4fa-4b6a-99e2-6054aab87aa6"
+					(reference "J4")
 					(unit 1)
 				)
 			)
