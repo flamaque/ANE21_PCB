@@ -3,4 +3,6 @@
   (lib (name "SS-52400-004 (USB-c connector)")(type "KiCad")(uri "${KIPRJMOD}/SS-52400-004 (USB-c connector)")(options "")(descr ""))
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/lib_Finley/lib.pretty")(options "")(descr ""))
   (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C")(options "")(descr ""))
+  (lib (name "tps26750srsmr")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TPS26750SRSMR")(options "")(descr ""))
+  (lib (name "USB_C31_A_D_VT_CS1 (1)")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/USB-C31-A-D-VT-CS1/USB_C31_A_D_VT_CS1 (1)")(options "")(descr ""))
 )
