@@ -3858,6 +3858,7 @@
 				(hide yes)
 			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -3898,6 +3899,15 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4943,7 +4953,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "lib:BEL_SI-51005-F"
 				(at -1.27 -2.54 0)
 				(effects
 					(font
@@ -4952,7 +4962,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.belfuse.com/products/ethernet/magjacks-icms/si-51005-f"
 				(at -1.27 -2.54 0)
 				(effects
 					(font
@@ -4961,7 +4971,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "ethernet jack, RJ54, gigabit, with isolation transformers"
 				(at -1.27 -2.54 0)
 				(effects
 					(font
@@ -7133,7 +7143,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "SH1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7151,7 +7161,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "SH2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7579,8 +7589,16 @@
 		(uuid "031b1736-b892-4f26-ac03-85c67afeafe3")
 	)
 	(no_connect
+		(at 113.03 83.82)
+		(uuid "0a17c53a-b27a-4fb1-87fa-99c3410c62e9")
+	)
+	(no_connect
 		(at 109.22 111.76)
 		(uuid "174a1c56-71ae-4c39-a44b-19cf2700009d")
+	)
+	(no_connect
+		(at 44.45 60.96)
+		(uuid "1c1b0b20-13f1-4b6f-a1b1-6dfed4bebe09")
 	)
 	(no_connect
 		(at 48.26 119.38)
@@ -7599,6 +7617,10 @@
 		(uuid "3c5eff45-c01d-446c-89d5-93a86db392be")
 	)
 	(no_connect
+		(at 44.45 86.36)
+		(uuid "3daf4d45-b9c5-4876-81a0-dcd30135c1a6")
+	)
+	(no_connect
 		(at 48.26 144.78)
 		(uuid "42980d45-9dc2-4645-a885-a4b9355afbf9")
 	)
@@ -7611,6 +7633,10 @@
 		(uuid "44aec1ab-9ce6-42ec-bcb7-e0968dcdb247")
 	)
 	(no_connect
+		(at 113.03 60.96)
+		(uuid "4a9ee74a-73d9-48e2-8ee4-806b17ca336d")
+	)
+	(no_connect
 		(at 48.26 111.76)
 		(uuid "52a4ae61-9dfd-4ee7-bbd4-58df5ea6a998")
 	)
@@ -7619,8 +7645,16 @@
 		(uuid "629efad2-959b-42f6-bb66-8b8e88fe939d")
 	)
 	(no_connect
+		(at 43.18 48.26)
+		(uuid "758d38ed-8ccc-47d4-8572-2b7c02106a5f")
+	)
+	(no_connect
 		(at 48.26 109.22)
 		(uuid "794eebea-b2a9-453d-a113-86505f56318e")
+	)
+	(no_connect
+		(at 113.03 76.2)
+		(uuid "7a0cc5f4-0448-4f88-8d48-f695a8ef50f1")
 	)
 	(no_connect
 		(at 48.26 137.16)
@@ -7643,12 +7677,24 @@
 		(uuid "9655238e-be0d-4348-bcc6-77d0b3bcaefa")
 	)
 	(no_connect
+		(at 44.45 83.82)
+		(uuid "b95439e2-201e-4ea9-9d18-a6818fdaf380")
+	)
+	(no_connect
 		(at 48.26 134.62)
 		(uuid "bf1efaad-0956-495d-8e26-cad76659dd52")
 	)
 	(no_connect
+		(at 44.45 53.34)
+		(uuid "bf2fbe4a-0c24-40bb-8c05-1035bb7ea814")
+	)
+	(no_connect
 		(at 237.49 57.15)
 		(uuid "c49763fc-1ace-4db3-a127-daf807e8d27c")
+	)
+	(no_connect
+		(at 44.45 81.28)
+		(uuid "db784224-b460-4889-a964-a535dfc3a63e")
 	)
 	(no_connect
 		(at 109.22 101.6)
@@ -7657,6 +7703,10 @@
 	(no_connect
 		(at 109.22 119.38)
 		(uuid "e479cf19-5d4a-4d22-9c12-d0adeb707791")
+	)
+	(no_connect
+		(at 113.03 81.28)
+		(uuid "e8d86bb4-8137-4346-94b8-3506700f1f7b")
 	)
 	(no_connect
 		(at 109.22 109.22)
@@ -7882,7 +7932,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 88.9) (xy 121.92 88.9)
+			(xy 109.22 88.9) (xy 129.54 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7892,7 +7942,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 58.42) (xy 48.26 58.42)
+			(xy 25.4 58.42) (xy 48.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7942,7 +7992,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 66.04) (xy 48.26 66.04)
+			(xy 25.4 66.04) (xy 48.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7972,7 +8022,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 139.7) (xy 48.26 139.7)
+			(xy 35.56 139.7) (xy 48.26 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8002,7 +8052,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 121.92 93.98)
+			(xy 109.22 93.98) (xy 129.54 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8102,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 63.5) (xy 113.03 63.5)
+			(xy 109.22 63.5) (xy 132.08 63.5)
 		)
 		(stroke
 			(width 0)
@@ -8312,7 +8362,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 71.12) (xy 113.03 71.12)
+			(xy 109.22 71.12) (xy 132.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8492,7 +8542,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 96.52) (xy 48.26 96.52)
+			(xy 25.4 96.52) (xy 48.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8622,7 +8672,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 55.88) (xy 113.03 55.88)
+			(xy 109.22 55.88) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8742,7 +8792,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 71.12) (xy 48.26 71.12)
+			(xy 25.4 71.12) (xy 48.26 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8759,16 +8809,6 @@
 			(type default)
 		)
 		(uuid "6fdbc24b-b3c2-4af5-8cf7-100ad293db46")
-	)
-	(wire
-		(pts
-			(xy 34.29 48.26) (xy 35.56 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70d6850a-884f-4456-aabf-044699ef1d01")
 	)
 	(wire
 		(pts
@@ -8792,7 +8832,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 78.74) (xy 48.26 78.74)
+			(xy 25.4 78.74) (xy 48.26 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8942,7 +8982,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 73.66) (xy 113.03 73.66)
+			(xy 109.22 73.66) (xy 132.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8992,7 +9032,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 55.88) (xy 48.26 55.88)
+			(xy 25.4 55.88) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9362,7 +9402,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 93.98) (xy 48.26 93.98)
+			(xy 25.4 93.98) (xy 48.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9412,7 +9452,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 73.66) (xy 48.26 73.66)
+			(xy 25.4 73.66) (xy 48.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -9602,7 +9642,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 91.44) (xy 48.26 91.44)
+			(xy 25.4 91.44) (xy 48.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -9782,7 +9822,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 113.03 86.36)
+			(xy 109.22 86.36) (xy 129.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9852,7 +9892,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 58.42) (xy 113.03 58.42)
+			(xy 109.22 58.42) (xy 132.08 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9920,7 +9960,7 @@
 		)
 		(uuid "ff823424-4b67-4ba0-9272-3a0d0f413521")
 	)
-	(label "GPIO9"
+	(label "GPIO9_SPI0_MISO"
 		(at 44.45 73.66 180)
 		(effects
 			(font
@@ -9950,7 +9990,7 @@
 		)
 		(uuid "1a3324ed-c616-476c-872f-da95e058b95a")
 	)
-	(label "GPIO19"
+	(label "GPIO19_PCM_FS"
 		(at 44.45 55.88 180)
 		(effects
 			(font
@@ -9959,16 +9999,6 @@
 			(justify right bottom)
 		)
 		(uuid "1b0ddfba-3d43-4e67-a38d-df723b064bc6")
-	)
-	(label "GPIO17"
-		(at 44.45 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1c079938-49a1-447c-bbd3-5edb6a715bf0")
 	)
 	(label "LEDY"
 		(at 113.03 45.72 0)
@@ -9980,18 +10010,8 @@
 		)
 		(uuid "1fcce7fc-bd60-4f7c-b9a0-c2edbce666ad")
 	)
-	(label "GPIO27"
-		(at 44.45 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "21cfe7f0-22d9-4b28-a272-b6e379a249e0")
-	)
 	(label "RUN_PG"
-		(at 41.91 139.7 0)
+		(at 36.83 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10000,7 +10020,7 @@
 		)
 		(uuid "23d816ef-6b0e-4086-a14f-b5eeac92e579")
 	)
-	(label "GPIO13"
+	(label "GPIO13_PWM0_1"
 		(at 44.45 58.42 180)
 		(effects
 			(font
@@ -10020,7 +10040,7 @@
 		)
 		(uuid "2e68ca2a-3209-4c7f-82cf-3f022cd87a04")
 	)
-	(label "GPIO4"
+	(label "GPIO4_GPCLK0"
 		(at 44.45 91.44 180)
 		(effects
 			(font
@@ -10040,7 +10060,7 @@
 		)
 		(uuid "31e270d6-79fb-4e5f-9ce5-35a5a58d5de5")
 	)
-	(label "GPIO10"
+	(label "GPIO10_SPI0_MOSI"
 		(at 44.45 78.74 180)
 		(effects
 			(font
@@ -10060,7 +10080,7 @@
 		)
 		(uuid "3334feeb-3ed2-423f-a393-8f5ab684a087")
 	)
-	(label "GPIO14"
+	(label "GPIO14_TXD0"
 		(at 113.03 93.98 0)
 		(effects
 			(font
@@ -10080,17 +10100,7 @@
 		)
 		(uuid "3b4dbbe6-298e-4d59-b8fe-03ae2716b3d3")
 	)
-	(label "GPIO25"
-		(at 113.03 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40179cd5-4b87-4111-bed8-00c8be17b0d1")
-	)
-	(label "GPIO21"
+	(label "GPIO21_PCM_DOUT"
 		(at 113.03 55.88 0)
 		(effects
 			(font
@@ -10100,7 +10110,7 @@
 		)
 		(uuid "47dfc188-da25-40f0-af2d-e6c2fa121eee")
 	)
-	(label "GPIO3"
+	(label "GPIO3_SCL1"
 		(at 44.45 93.98 180)
 		(effects
 			(font
@@ -10130,26 +10140,6 @@
 		)
 		(uuid "50fb9eb3-b1d3-4fc0-82e7-7d4150610afb")
 	)
-	(label "GPIO26"
-		(at 44.45 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5304d99f-231a-420a-866f-dd2ad0792062")
-	)
-	(label "GPIO22"
-		(at 44.45 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "53efacc4-5d2e-4c96-8c2c-2d6efd9ebbf3")
-	)
 	(label "TRD3_P"
 		(at 113.03 27.94 0)
 		(effects
@@ -10160,7 +10150,7 @@
 		)
 		(uuid "5f3ad59e-a75a-4199-9c93-37caac3d0e1e")
 	)
-	(label "GPIO8"
+	(label "GPIO8_SPI0_CE0_N"
 		(at 113.03 73.66 0)
 		(effects
 			(font
@@ -10180,26 +10170,6 @@
 		)
 		(uuid "7af6c060-eefc-4212-9eaa-f2b97d3d4fca")
 	)
-	(label "GPIO6"
-		(at 44.45 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d26f537-3c57-4e8b-9747-7361cbd4ddb9")
-	)
-	(label "GPIO16"
-		(at 113.03 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82fe7db3-db5e-4738-a112-3efea0e863e3")
-	)
 	(label "TRD1_N"
 		(at 196.85 39.37 0)
 		(effects
@@ -10210,7 +10180,7 @@
 		)
 		(uuid "83ab03ce-821a-44e5-bb54-4c944d7f3452")
 	)
-	(label "GPIO20"
+	(label "GPIO20_PCM_DIN"
 		(at 113.03 58.42 0)
 		(effects
 			(font
@@ -10220,7 +10190,7 @@
 		)
 		(uuid "85451c5a-9078-4e9f-b9ae-e6f006e06849")
 	)
-	(label "GPIO12"
+	(label "GPIO12_PWM0_0"
 		(at 113.03 63.5 0)
 		(effects
 			(font
@@ -10229,16 +10199,6 @@
 			(justify left bottom)
 		)
 		(uuid "86ce91fe-c23d-44d2-8107-f0d658b9ccd4")
-	)
-	(label "GPIO24"
-		(at 113.03 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "87dfac05-e2b4-44d0-8cf6-9e75feab2d01")
 	)
 	(label "BT_nDis"
 		(at 113.03 139.7 0)
@@ -10270,7 +10230,7 @@
 		)
 		(uuid "9a3afa28-5563-481c-8e3f-699fb4bd5774")
 	)
-	(label "GPIO11"
+	(label "GPIO11_SPI0_SCLK"
 		(at 44.45 71.12 180)
 		(effects
 			(font
@@ -10320,16 +10280,6 @@
 		)
 		(uuid "bfbdf599-bb04-4bb5-b2ee-b61dc4bc7b56")
 	)
-	(label "GPIO23"
-		(at 113.03 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c961edb5-96da-41e9-93a6-6e94240a5f50")
-	)
 	(label "Ethernet[1..10]"
 		(at 193.04 25.4 180)
 		(effects
@@ -10340,7 +10290,7 @@
 		)
 		(uuid "cad22202-b9e0-4281-b4d7-37a1fd12de66")
 	)
-	(label "GPIO7"
+	(label "GPIO7_SPI0_CE1_N"
 		(at 113.03 71.12 0)
 		(effects
 			(font
@@ -10380,7 +10330,7 @@
 		)
 		(uuid "ce4edbdc-3e9d-47a8-ad8e-db0f4d2daa0a")
 	)
-	(label "GPIO2"
+	(label "GPIO2_SDA1"
 		(at 44.45 96.52 180)
 		(effects
 			(font
@@ -10440,7 +10390,7 @@
 		)
 		(uuid "eecc2408-1724-4fd5-9f1f-c0ca51ea00a3")
 	)
-	(label "GPIO18"
+	(label "GPIO18_PCM_CLK"
 		(at 113.03 86.36 0)
 		(effects
 			(font
@@ -10450,7 +10400,7 @@
 		)
 		(uuid "f229df24-64b9-45f5-9e3c-9105234f8335")
 	)
-	(label "GPIO15"
+	(label "GPIO15_RXD0"
 		(at 113.03 88.9 0)
 		(effects
 			(font
@@ -10460,7 +10410,7 @@
 		)
 		(uuid "f448ebc6-fe60-4fcd-b576-f21e45be232d")
 	)
-	(label "GPIO5"
+	(label "GPIO5_GPCLK1"
 		(at 44.45 66.04 180)
 		(effects
 			(font
@@ -10490,6 +10440,17 @@
 		)
 		(uuid "f6f99350-f491-415c-a231-e6ce54246ac5")
 	)
+	(hierarchical_label "GPIO10_SPI0_MOSI"
+		(shape input)
+		(at 25.4 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04204934-4d52-410e-909c-d11bafb57ee7")
+	)
 	(hierarchical_label "nRPIBOOT"
 		(shape output)
 		(at 123.19 142.24 0)
@@ -10501,9 +10462,20 @@
 		)
 		(uuid "0886f121-9aa8-4c6d-b849-169543d194ad")
 	)
-	(hierarchical_label "GPIO14"
+	(hierarchical_label "GPIO7_SPI0_CE1_N"
+		(shape input)
+		(at 132.08 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0eedf52a-475d-49d1-bee7-45f612de4c32")
+	)
+	(hierarchical_label "GPIO14_TXD0"
 		(shape output)
-		(at 121.92 93.98 0)
+		(at 129.54 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10511,6 +10483,39 @@
 			(justify left)
 		)
 		(uuid "168f950a-3f5b-4056-ab09-cdfc878b88b3")
+	)
+	(hierarchical_label "GPIO18_PCM_CLK"
+		(shape input)
+		(at 129.54 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25d51eb9-a690-4c64-bce6-74413742c399")
+	)
+	(hierarchical_label "GPIO3_SCL1"
+		(shape input)
+		(at 25.4 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26844b84-0116-40d8-95f6-6f87daf47c71")
+	)
+	(hierarchical_label "GPIO5_GPCLK1"
+		(shape input)
+		(at 25.4 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3154df22-b9e2-494e-9b84-1e270ed23bf3")
 	)
 	(hierarchical_label "BT_nDis"
 		(shape output)
@@ -10534,9 +10539,42 @@
 		)
 		(uuid "4712fe8f-d441-4ca4-8b24-d32d8504db07")
 	)
-	(hierarchical_label "GPIO15"
+	(hierarchical_label "GPIO21_PCM_DOUT"
+		(shape input)
+		(at 132.08 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "50888285-4d58-4e46-91e2-a98b6dc77e0c")
+	)
+	(hierarchical_label "GPIO19_PCM_FS"
+		(shape input)
+		(at 25.4 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54381336-bd23-43f5-b4a7-23f4a466babb")
+	)
+	(hierarchical_label "GPIO2_SDA1"
+		(shape input)
+		(at 25.4 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56068bff-10be-4920-a40f-6b4481ddb408")
+	)
+	(hierarchical_label "GPIO15_RXD0"
 		(shape output)
-		(at 121.92 88.9 0)
+		(at 129.54 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10545,9 +10583,31 @@
 		)
 		(uuid "6188def0-54f6-4863-a7e0-c75d56c4d66f")
 	)
+	(hierarchical_label "GPIO20_PCM_DIN"
+		(shape input)
+		(at 132.08 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62505097-8c2b-4ee7-8cd1-340479c05ce0")
+	)
+	(hierarchical_label "GPIO8_SPI0_CE0_N"
+		(shape input)
+		(at 132.08 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "663340a9-2725-42a1-9d95-c04c59cb577c")
+	)
 	(hierarchical_label "RUN_PG"
 		(shape output)
-		(at 39.37 139.7 180)
+		(at 35.56 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10555,6 +10615,17 @@
 			(justify right)
 		)
 		(uuid "7ae12714-4450-40f3-b773-cd9dbc3e56ee")
+	)
+	(hierarchical_label "GPIO12_PWM0_0"
+		(shape input)
+		(at 132.08 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84997e15-faa7-4d38-b8c3-e00fdf1ee33b")
 	)
 	(hierarchical_label "3.3V OUT (CM4.86)"
 		(shape input)
@@ -10578,6 +10649,39 @@
 		)
 		(uuid "abd97feb-c2bb-443a-8e38-1474257e8150")
 	)
+	(hierarchical_label "GPIO4_GPCLK0"
+		(shape input)
+		(at 25.4 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae56d456-9cab-44a4-9b8c-decccbbe0c7c")
+	)
+	(hierarchical_label "GPIO13_PWM0_1"
+		(shape input)
+		(at 25.4 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aeae1dfd-e9fa-41c7-9749-8b9c95a02dfa")
+	)
+	(hierarchical_label "GPIO11_SPI0_SCLK"
+		(shape input)
+		(at 25.4 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4f9145c-1c17-4a38-a2e7-87ab838830e1")
+	)
 	(hierarchical_label "3.3V OUT (CM4.86)"
 		(shape output)
 		(at 38.1 127 180)
@@ -10600,6 +10704,28 @@
 		)
 		(uuid "dec431f1-818a-4d4f-b804-f3c5e1242183")
 	)
+	(hierarchical_label "+3.3v"
+		(shape input)
+		(at 152.4 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dfa3f800-d386-48a9-9bb0-18614350f96f")
+	)
+	(hierarchical_label "GPIO9_SPI0_MISO"
+		(shape input)
+		(at 25.4 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f13bc48e-8fa6-43ce-aade-721b812e4579")
+	)
 	(hierarchical_label "3.3V OUT (CM4.86)"
 		(shape input)
 		(at 13.97 144.78 180)
@@ -10621,17 +10747,6 @@
 			(justify left)
 		)
 		(uuid "fa37baf5-e4ac-4cd8-9876-a24a49cad74c")
-	)
-	(hierarchical_label "3.3V OUT (CM4.86)"
-		(shape input)
-		(at 34.29 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa9a28f4-dd7d-4515-a5e4-c406731e5ffa")
 	)
 	(hierarchical_label "nPWR_LED"
 		(shape output)
@@ -10910,7 +11025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Green"
+		(property "Value" "LED"
 			(at 135.0518 38.1508 90)
 			(effects
 				(font
@@ -10928,7 +11043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(property "Datasheet" "~"
 			(at 132.08 36.83 0)
 			(effects
 				(font
@@ -10937,12 +11052,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 132.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" "Digikey "
@@ -10999,6 +11115,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7bfc8f5-b2ce-497c-9380-8c2afa187a14")
 		)
@@ -11024,7 +11149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e19768b")
-		(property "Reference" "R23"
+		(property "Reference" "R3"
 			(at 133.858 48.1584 0)
 			(effects
 				(font
@@ -11033,7 +11158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "R"
 			(at 133.858 45.847 0)
 			(effects
 				(font
@@ -11051,7 +11176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "~"
 			(at 132.08 46.99 0)
 			(effects
 				(font
@@ -11060,12 +11185,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 132.08 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" "Farnell"
@@ -11131,130 +11257,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 39.37 48.26 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "137e9741-c246-4f5e-b655-fd657e51f444")
-		(property "Reference" "R7"
-			(at 44.958 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 40.894 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 39.37 46.482 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field4" "Farnell"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "9239235"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "RK73H1ETTP1001F"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 1K M1005 1% 63mW"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" "125049511"
-			(at 39.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fe74698-a0f9-4429-ad5b-80fe4c06eefb")
-		)
-		(pin "2"
-			(uuid "766b9ece-247a-41cf-a2fb-75f65fa770d1")
-		)
-		(instances
-			(project "ANE21_PCB"
-				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11269,7 +11272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "174d1d35-f0c8-4d00-a254-a7197cb678b5")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR62"
 			(at 233.68 93.98 0)
 			(effects
 				(font
@@ -11319,7 +11322,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "#PWR062")
+					(reference "#PWR62")
 					(unit 1)
 				)
 			)
@@ -11343,7 +11346,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED Green"
+		(property "Value" "LED"
 			(at 24.638 149.352 90)
 			(effects
 				(font
@@ -11361,7 +11364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(property "Datasheet" "~"
 			(at 21.59 148.59 0)
 			(effects
 				(font
@@ -11370,12 +11373,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 21.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" "Digikey "
@@ -11432,6 +11436,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 21.59 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd63f7c5-f77a-4770-a3de-4d36d36eaf6a")
 		)
@@ -11456,7 +11469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38f71ab8-d3a1-4f35-b10e-e98db61ed2aa")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 200.66 72.39 0)
 			(effects
 				(font
@@ -11506,7 +11519,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -11521,7 +11534,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a15f0a5-b2bd-4deb-8668-27c1054a7339")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR63"
 			(at 111.76 166.37 0)
 			(effects
 				(font
@@ -11571,7 +11584,7 @@
 		(instances
 			(project ""
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "#PWR063")
+					(reference "#PWR63")
 					(unit 1)
 				)
 			)
@@ -11586,7 +11599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c76c069-7b3a-4631-bc8f-fa27b09eea10")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR61"
 			(at 233.68 81.28 0)
 			(effects
 				(font
@@ -11636,7 +11649,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "#PWR061")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -11651,7 +11664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3edfa9af-1c3d-4176-8985-afb0b2fe3fd6")
-		(property "Reference" "U12"
+		(property "Reference" "U1"
 			(at 273.05 55.8799 0)
 			(effects
 				(font
@@ -11678,7 +11691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.belfuse.com/products/ethernet/magjacks-icms/si-51005-f"
 			(at 255.27 59.69 0)
 			(effects
 				(font
@@ -11687,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ethernet jack, RJ54, gigabit, with isolation transformers"
 			(at 255.27 59.69 0)
 			(effects
 				(font
@@ -11732,13 +11745,13 @@
 		(pin "16"
 			(uuid "58323c25-a445-45f7-a4e8-e69605f204ad")
 		)
-		(pin "19"
+		(pin "SH1"
 			(uuid "1d5053a4-0be3-439b-aed1-3ec42e09b03d")
 		)
 		(pin "14"
 			(uuid "cce32c51-aec0-4d7f-8d69-7ac01deadb9f")
 		)
-		(pin "20"
+		(pin "SH2"
 			(uuid "4350e20f-9dba-46db-9936-e76c8351781b")
 		)
 		(pin "15"
@@ -11747,7 +11760,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "U12")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11789,7 +11802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 25.4 160.02 0)
 			(effects
 				(font
@@ -11798,12 +11811,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 25.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" "nf"
@@ -11863,7 +11877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53c21bc7-d5a2-4ce7-96cb-e5a1f684d51d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 227.33 25.4 0)
 			(effects
 				(font
@@ -11913,7 +11927,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -11928,7 +11942,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bdf886b-3983-4f4c-aa53-310c41b059e8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR16"
 			(at 45.72 166.37 0)
 			(effects
 				(font
@@ -11978,7 +11992,7 @@
 		(instances
 			(project ""
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "#PWR016")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -11993,7 +12007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91d57938-245b-413b-83c2-d58b28b415fe")
-		(property "Reference" "R16"
+		(property "Reference" "R5"
 			(at 226.06 73.152 90)
 			(effects
 				(font
@@ -12001,7 +12015,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "R_Small"
 			(at 226.06 74.676 90)
 			(effects
 				(font
@@ -12045,7 +12059,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "R16")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12076,7 +12090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ComputeModule4:Raspberry-Pi-4-Compute-Module"
+		(property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module"
 			(at 223.52 107.95 0)
 			(effects
 				(font
@@ -12737,7 +12751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a747e8fd-28f4-402b-969b-2c8e62ca6408")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 140.208 43.942 90)
 			(effects
 				(font
@@ -12764,7 +12778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 135.89 46.99 0)
 			(effects
 				(font
@@ -12773,12 +12787,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 135.89 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" "nf"
@@ -12823,7 +12838,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -12838,7 +12853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca9ea16b-9ba3-4c4a-ac44-578fd8bde36c")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 27.8384 160.528 0)
 			(effects
 				(font
@@ -12847,7 +12862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "R"
 			(at 25.527 160.528 0)
 			(effects
 				(font
@@ -12865,7 +12880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "~"
 			(at 26.67 158.75 0)
 			(effects
 				(font
@@ -12874,12 +12889,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 26.67 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" "Farnell"
@@ -12945,7 +12961,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12960,7 +12976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d945a852-93c6-44b9-92c3-32dc2bfc5094")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 214.884 13.97 90)
 			(effects
 				(font
@@ -13036,7 +13052,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "U9")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13051,7 +13067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4a007cd-f87d-4b61-9251-0b153988c8f8")
-		(property "Reference" "U10"
+		(property "Reference" "U3"
 			(at 203.708 68.58 90)
 			(effects
 				(font
@@ -13129,7 +13145,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "U10")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13144,7 +13160,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9836f65-2f3d-4bc9-9e5c-0d0adca1bf9c")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 229.87 58.928 90)
 			(effects
 				(font
@@ -13152,7 +13168,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "R_Small"
 			(at 229.87 60.452 90)
 			(effects
 				(font
@@ -13196,7 +13212,7 @@
 		(instances
 			(project "ANE21_PCB"
 				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/ef20787e-43c3-4ad5-adcc-ccbc973acf64"
-					(reference "R15")
+					(reference "R4")
 					(unit 1)
 				)
 			)

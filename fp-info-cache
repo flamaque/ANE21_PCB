@@ -1,4 +1,4 @@
-26761394608761672
+26772043245482560
 74LVC1G07SE-7
 SOT65P210X110-5N
 
@@ -105685,6 +105685,20 @@ CONN_2036150003_MOL(USB-c_connector)
 0
 18
 18
+USB4105-GF-A
+GCT_USB4105-GF-A
+
+
+0
+16
+16
+USB4105-GF-A
+USB4105-GF-A-PD
+
+
+0
+16
+16
 USB_C31_A_D_VT_CS1 (1)
 ADAMTECH_USB-C31-A-D-VT-CS1
 
@@ -106473,6 +106487,34 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+ch224k
+ESSOP-10_CH224K
+
+
+0
+14
+11
+footprints
+DIODE_DO214AA
+
+SMBJ15A 
+0
+2
+2
+footprints
+DIODE_DO214AA-L
+
+SMBJ15A 
+0
+2
+2
+footprints
+DIODE_DO214AA-M
+
+SMBJ15A 
 0
 2
 2

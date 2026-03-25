@@ -5,4 +5,7 @@
   (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C")(options "")(descr ""))
   (lib (name "tps26750srsmr")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TPS26750SRSMR")(options "")(descr ""))
   (lib (name "USB_C31_A_D_VT_CS1 (1)")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/USB-C31-A-D-VT-CS1/USB_C31_A_D_VT_CS1 (1)")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/USB4105-GF-A")(options "")(descr ""))
+  (lib (name "ch224k")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/ch224k")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TVS/SMBJ15A/footprints.pretty")(options "")(descr ""))
 )

@@ -11,4 +11,6 @@
   (lib (name "2026-03-08_10-34-21")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/2026-03-08_10-34-21.kicad_sym")(options "")(descr ""))
   (lib (name "TPS26750SRSMR")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TPS26750SRSMR/TPS26750SRSMR.kicad_sym")(options "")(descr ""))
   (lib (name "USB-C31-A-D-VT-CS1")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/USB-C31-A-D-VT-CS1/USB_C31_A_D_VT_CS1 (1)/USB-C31-A-D-VT-CS1.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/USB4105-GF-A/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "SMBJ15A")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TVS/SMBJ15A/SMBJ15A.kicad_sym")(options "")(descr ""))
 )
