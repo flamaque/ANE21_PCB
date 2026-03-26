@@ -8,4 +8,5 @@
   (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/USB4105-GF-A")(options "")(descr ""))
   (lib (name "ch224k")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/ch224k")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TVS/SMBJ15A/footprints.pretty")(options "")(descr ""))
+  (lib (name "SMBJ14A")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TVS/SMBJ14A")(options "")(descr ""))
 )

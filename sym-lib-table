@@ -13,4 +13,5 @@
   (lib (name "USB-C31-A-D-VT-CS1")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/USB-C31-A-D-VT-CS1/USB_C31_A_D_VT_CS1 (1)/USB-C31-A-D-VT-CS1.kicad_sym")(options "")(descr ""))
   (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/USB-C/USB4105-GF-A/USB4105-GF-A.kicad_sym")(options "")(descr ""))
   (lib (name "SMBJ15A")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TVS/SMBJ15A/SMBJ15A.kicad_sym")(options "")(descr ""))
+  (lib (name "SMBJ14A")(type "KiCad")(uri "${KIPRJMOD}/Extra_Components/TVS/SMBJ14A/SMBJ14A.kicad_sym")(options "")(descr ""))
 )
