@@ -1,4 +1,11 @@
-26773817767498226
+26777367170671214
+1-2199119-5_Finley
+TerminalBlock_PhoenixTerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal_Edited
+
+
+0
+2
+2
 74LVC1G07SE-7
 SOT65P210X110-5N
 
@@ -61424,6 +61431,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+EMI8042
+TerminalBlock_PhoenixTerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal_Edited
+
+
+0
+2
+2
 Ethernet_con
 TE_RJ45-8L-B
 
