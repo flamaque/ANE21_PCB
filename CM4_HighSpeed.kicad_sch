@@ -12674,7 +12674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 186.436 92.71 0)
 			(effects
 				(font
@@ -13303,7 +13303,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 184.15 83.8199 0)
 			(effects
 				(font

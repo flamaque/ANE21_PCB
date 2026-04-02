@@ -12015,7 +12015,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "470"
 			(at 226.06 74.676 90)
 			(effects
 				(font
@@ -13168,7 +13168,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "470"
 			(at 229.87 60.452 90)
 			(effects
 				(font

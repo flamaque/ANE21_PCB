@@ -1606,33 +1606,38 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "USB4105-GF-A:USB4105-GF-A-PD"
+		(symbol "USB4105-GF-A:USB4105-GF-A"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "J"
+				(at -15.24 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "USB4105-GF-A"
+				(at -15.24 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "USB4105-GF-A:GCT_USB4105-GF-A"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1654,10 +1659,130 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB4105-GF-A-PD_0_0"
+			(property "MF" "GCT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "3.31 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/USB4105-GF-A/Global+Connector+Technology/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "B4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4105-GF-A/Global+Connector+Technology/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "USB4105-GF-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "GCT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "USB4105-GF-A_0_0"
 				(rectangle
-					(start -13.97 12.7)
-					(end 16.51 -12.7)
+					(start -15.24 -12.7)
+					(end 15.24 12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1667,7 +1792,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -19.05 5.08 0)
+					(at -20.32 5.08 0)
 					(length 5.08)
 					(name "CC1"
 						(effects
@@ -1685,7 +1810,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -19.05 2.54 0)
+					(at -20.32 2.54 0)
 					(length 5.08)
 					(name "DP1"
 						(effects
@@ -1703,7 +1828,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -19.05 0 0)
+					(at -20.32 0 0)
 					(length 5.08)
 					(name "DN1"
 						(effects
@@ -1721,7 +1846,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -19.05 -2.54 0)
+					(at -20.32 -2.54 0)
 					(length 5.08)
 					(name "SBU1"
 						(effects
@@ -1738,8 +1863,45 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A4_B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B4_A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
-					(at 21.59 5.08 180)
+					(at 20.32 5.08 180)
 					(length 5.08)
 					(name "CC2"
 						(effects
@@ -1757,7 +1919,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 2.54 180)
+					(at 20.32 2.54 180)
 					(length 5.08)
 					(name "DP2"
 						(effects
@@ -1775,7 +1937,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 0 180)
+					(at 20.32 0 180)
 					(length 5.08)
 					(name "DN2"
 						(effects
@@ -1793,7 +1955,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 21.59 -2.54 180)
+					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "SBU2"
 						(effects
@@ -1811,7 +1973,7 @@
 					)
 				)
 				(pin power_in line
-					(at 21.59 -7.62 180)
+					(at 20.32 -7.62 180)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1829,7 +1991,7 @@
 					)
 				)
 				(pin power_in line
-					(at 21.59 -7.62 180)
+					(at 20.32 -7.62 180)
 					(length 5.08)
 					(hide yes)
 					(name "GND"
@@ -1848,7 +2010,7 @@
 					)
 				)
 				(pin power_in line
-					(at 21.59 -10.16 180)
+					(at 20.32 -10.16 180)
 					(length 5.08)
 					(name "SHELL_GND"
 						(effects
@@ -1866,7 +2028,7 @@
 					)
 				)
 				(pin power_in line
-					(at 21.59 -10.16 180)
+					(at 20.32 -10.16 180)
 					(length 5.08)
 					(hide yes)
 					(name "SHELL_GND"
@@ -1885,7 +2047,7 @@
 					)
 				)
 				(pin power_in line
-					(at 21.59 -10.16 180)
+					(at 20.32 -10.16 180)
 					(length 5.08)
 					(hide yes)
 					(name "SHELL_GND"
@@ -1904,7 +2066,7 @@
 					)
 				)
 				(pin power_in line
-					(at 21.59 -10.16 180)
+					(at 20.32 -10.16 180)
 					(length 5.08)
 					(hide yes)
 					(name "SHELL_GND"
@@ -1915,45 +2077,6 @@
 						)
 					)
 					(number "SH4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "USB4105-GF-A-PD_1_0"
-				(pin power_in line
-					(at 21.59 10.16 180)
-					(length 5.08)
-					(name "VBUS-PD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A4_B9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 21.59 10.16 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS-PD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "B4_A9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3426,117 +3549,6 @@
 		)
 	)
 	(symbol
-		(lib_id "USB4105-GF-A:USB4105-GF-A-PD")
-		(at 66.04 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c535761-c57f-4e8d-9c23-ee2d5f8c728f")
-		(property "Reference" "U11"
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "~"
-			(at 67.31 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "7c84afc2-b7c7-4156-bc76-8976de2de398")
-		)
-		(pin "A7"
-			(uuid "54a2cab1-314a-4698-8848-036a8a2a2d9c")
-		)
-		(pin "A8"
-			(uuid "3e75314c-678c-4424-8586-767417121d31")
-		)
-		(pin "B5"
-			(uuid "b8b190d2-a3fc-4942-b107-c18dba39e38f")
-		)
-		(pin "A6"
-			(uuid "811bdfa5-2afb-4ef2-b517-0f5fe2389ceb")
-		)
-		(pin "B7"
-			(uuid "d2e654e4-375f-42fd-aa0e-7a3b359131b7")
-		)
-		(pin "B6"
-			(uuid "473f252c-db89-4df8-91be-f061bfb03b42")
-		)
-		(pin "A1_B12"
-			(uuid "0522835d-b54a-4b49-8d3f-d806eceb7918")
-		)
-		(pin "SH1"
-			(uuid "3782b2f2-ef75-495e-ad55-e13f1664740c")
-		)
-		(pin "SH3"
-			(uuid "dd3b6317-fcd3-49d9-9f0a-4a646e2c02f9")
-		)
-		(pin "B8"
-			(uuid "4fd25095-1d2b-4b89-a451-2dbb12e08a64")
-		)
-		(pin "B1_A12"
-			(uuid "793c6ecb-1b1f-4268-8a87-740fe2d2eab2")
-		)
-		(pin "SH2"
-			(uuid "88fcddeb-11b4-4eac-bc8c-2b2830202366")
-		)
-		(pin "SH4"
-			(uuid "68b6810b-7a0d-4639-b2ce-6776904c6cc1")
-		)
-		(pin "B4_A9"
-			(uuid "6c2e4b4c-485e-4269-b6b6-793c4ccae467")
-		)
-		(pin "A4_B9"
-			(uuid "8c278e7d-a7db-48a2-88fc-fcbdbdb9a4a7")
-		)
-		(instances
-			(project ""
-				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/1710a55d-c4fa-4b6a-99e2-6054aab87aa6"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 87.63 101.6 0)
 		(unit 1)
@@ -3621,7 +3633,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10pF"
 			(at 83.058 93.98 0)
 			(effects
 				(font
@@ -3911,6 +3923,237 @@
 		)
 	)
 	(symbol
+		(lib_id "USB4105-GF-A:USB4105-GF-A")
+		(at 67.31 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "342c8f12-5673-47fc-bb9f-03870d1eeeb1")
+		(property "Reference" "J7"
+			(at 67.31 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB4105-GF-A"
+			(at 67.31 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "USB4105-GF-A:GCT_USB4105-GF-A"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "GCT"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "3.31 mm"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/USB4105-GF-A/Global+Connector+Technology/view-part/?ref=eda"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B4"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4105-GF-A/Global+Connector+Technology/view-part/?ref=snap"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "USB4105-GF-A"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "GCT"
+			(at 67.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A6"
+			(uuid "9e50a784-7026-40ef-9edd-71371a5fd923")
+		)
+		(pin "A8"
+			(uuid "52d33aa4-dff2-4a3d-a077-67ad637c174f")
+		)
+		(pin "B4_A9"
+			(uuid "ec22ed4a-f806-4623-8303-5c41944ce77b")
+		)
+		(pin "B7"
+			(uuid "cf1f51fe-62f0-4ecb-9994-699f50d2360c")
+		)
+		(pin "SH2"
+			(uuid "f0b96f5f-2947-4d95-a3b3-471a8b80b799")
+		)
+		(pin "A5"
+			(uuid "dfdb7942-d16e-4046-834e-feb6e0368a5e")
+		)
+		(pin "A7"
+			(uuid "7a26207f-7ca7-460d-a57a-88c7a5b5a51a")
+		)
+		(pin "A4_B9"
+			(uuid "59e40ca0-6979-45e5-b287-a0bf64e2ba49")
+		)
+		(pin "B5"
+			(uuid "61ebaf50-3593-4953-be97-77f0b213b8a7")
+		)
+		(pin "B6"
+			(uuid "d8a3bb3a-8c29-4281-af45-7ccf4ff06d83")
+		)
+		(pin "B8"
+			(uuid "4fce8407-6fce-4852-bd6c-b2e4d8ab8d87")
+		)
+		(pin "A1_B12"
+			(uuid "96088b11-820e-4f53-aa60-f23668382b16")
+		)
+		(pin "B1_A12"
+			(uuid "958ca612-e67b-4e7b-8b55-49d888728127")
+		)
+		(pin "SH1"
+			(uuid "185a2c8a-f3b3-4120-a1eb-e949cb603d69")
+		)
+		(pin "SH3"
+			(uuid "bc3927e2-216a-4546-b7c0-de9345d2d116")
+		)
+		(pin "SH4"
+			(uuid "628302a6-b303-48d3-b8a8-970b5c919b4a")
+		)
+		(instances
+			(project "ANE21_PCB"
+				(path "/27bae9d5-8d47-4d02-9c9d-2650041a529b/1710a55d-c4fa-4b6a-99e2-6054aab87aa6"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 166.37 54.61 90)
 		(unit 1)
@@ -4194,7 +4437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 100.584 93.726 0)
 			(effects
 				(font
@@ -4938,7 +5181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 106.934 93.726 0)
 			(effects
 				(font
@@ -5007,7 +5250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 214.884 100.33 0)
 			(effects
 				(font
@@ -6099,7 +6342,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10pF"
 			(at 197.358 100.33 0)
 			(effects
 				(font
@@ -6306,7 +6549,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22uF"
 			(at 222.504 100.33 0)
 			(effects
 				(font
