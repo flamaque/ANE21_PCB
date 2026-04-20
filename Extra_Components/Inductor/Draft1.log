@@ -1,0 +1,9 @@
+C:\Users\koeki\Documents\GitHub\ANE21_PCB\Extra_Components\Inductor\Draft1.net(20): File not found.
+.include regulators.lib
+         ^^^^^^^^^^^^^^
+C:\Users\koeki\Documents\GitHub\ANE21_PCB\Extra_Components\Inductor\Draft1.net(23): File not found.
+.include Pot.lib
+         ^^^^^^^
+C:\Users\koeki\Documents\GitHub\ANE21_PCB\Extra_Components\Inductor\Draft1.net(24): File not found.
+.lib pot.lib
+     ^^^^^^^

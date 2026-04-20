@@ -6033,9 +6033,9 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/Extra_Components/RP-008170-DS-1-CM4-step/CM4.step"
+		(model "C:/Users/koeki/Downloads/Decimate_05.step"
 			(offset
-				(xyz 52.5 -3.5 2)
+				(xyz 17.2 21.4 2)
 			)
 			(scale
 				(xyz 1 1 1)
